@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cognifyz Technologies Level 1 Task 1</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Muli:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        text-decoration: none;
+        list-style: none;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #9ddbf8;
+      }
+      .nav {
+        background: linear-gradient(to right, #614051, #ffdb58);
+        height: 100px;
+        width: 100%;
+      }
+      .ul1 {
+        float: right;
+        margin-right: 20px;
+      }
+
+      .text1 {
+        display: inline;
+        line-height: 100px;
+        margin: 0 5px;
+      }
+
+      .cap {
+        color: #230bf4e0;
+        font-size: medium;
+        font-weight: bold;
+      }
+      .cap:hover {
+        background: #7af7ac;
+      }
+      .welcome {
+        text-align: center;
+      }
+      .data {
+        font-size: 15px;
+        font: system-ui;
+        padding-left: 135px;
+        font-weight: bold;
+        color: #012970;
+      }
+
+      .home-img {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 100px;
+      }
+
+      .data {
+        font-size: 15px;
+        font: system-ui;
+        font-weight: bold;
+        color: #012970;
+      }
+      .img2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .img2 img {
+        max-width: 50%;
+        height: auto;
+        align-items: right;
+      }
+      .t1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        font-size: 30px;
+        color: #012970;
+        padding-left: 20px;
+      }
+      .p3 {
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        font-weight: bold;
+        font-size: 15px;
+        color: #012970;
+        padding-left: 20px;
+      }
+      .contact-form {
+        align-items: center;
+        width: 50%;
+        margin-left: 40%;
+        padding-left: 50px;
+      }
+      .contact {
+        text-align: center;
+      }
+      .button {
+        align-items: center;
+        padding-left: 100px;
+        display: inline-block;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav class="nav">
+      <img
+        src="https://www.cognifyz.com/images/cogni-logo.png"
+        alt="Cognifyz-Technologies"
+        width="300px"
+      />
+
+      <ul class="ul1">
+        <li class="text1"><a class="cap" href="Task1.html">HOME</a></li>
+        <li class="text1">
+          <a class="cap" href="task1_about_us.html">ABOUT US</a>
+        </li>
+        <li class="text1">
+          <a class="cap" href="task1_course_registration.html">REGISTER</a>
+        </li>
+      </ul>
+    </nav>
+    <br />
+    <h1 class="welcome">Welcome to Cognifyz Technologies</h1>
+    <br />
+    <br />
+    <br />
+
+    <div class="img2">
+      <div class="img2-text">
+        <p class="t1">Cognifyz Technologies</p>
+        <br />
+        <p class="p3">"Where Data Meets Intelligence"</p>
+      </div>
+      <img
+        src="https://www.cognifyz.com/images/Data%20points-bro.svg"
+        alt="img-2"
+        class="img2-container"
+      />
+    </div>
+    <br />
+    <br />
+    <h1 class="contact">Contact Us</h1>
+    <br /><br />
+    <div class="contact-form">
+      <form
+        action="https://www.phase3solution.com/wp-content/uploads/2018/11/thank-you-contacting-us.png"
+      >
+        <input
+          type="text"
+          required
+          placeholder="Enter your name here"
+          style="width: 300px"
+        />
+        <br /><br />
+
+        <input
+          type="email"
+          required
+          placeholder="Enter your email-id here."
+          style="width: 300px"
+        />
+        <br /><br />
+
+        <input
+          type="tel"
+          required
+          maxlength="10"
+          style="width: 300px"
+          placeholder="Mobile-No"
+        />
+        <br /><br />
+
+        <textarea
+          cols="30"
+          rows="10"
+          placeholder="Enter your text here."
+          style="width: 300px"
+        ></textarea>
+        <br /><br />
+
+        <button id="button">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>

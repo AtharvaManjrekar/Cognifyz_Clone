@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>#Contact-Us-forms</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Muli:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background-color: beige;
+      }
+      .contact {
+        text-align: justify;
+        padding-left: 360px;
+        padding-right: 280px;
+      }
+      .container {
+        width: 50%;
+        margin: 0 auto;
+      }
+      .name {
+        width: 75%;
+      }
+      .email {
+        width: 75%;
+      }
+      .mobile {
+        width: 75%;
+      }
+      #text {
+        width: 75%;
+      }
+      .button {
+        align-items: justify;
+        margin-left: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <br /><br /><br /><br /><br />
+    <h1 class="contact">
+      <i class="fa-sharp fa-solid fa-font fa-beat">COURSE REGISTRATION</i>
+    </h1>
+    <div class="container">
+      <form
+        action="https://seafarersmeaning.com/wp-content/uploads/2021/04/Thank-you-for-registering-1024x489.png"
+        class="form"
+      >
+        <input type="text" placeholder="Your Name" required class="name" />
+        <br />
+        <br />
+        <input type="email" placeholder="Email-id" required class="email" />
+        <br />
+        <br />
+        <input
+          type="tel"
+          placeholder="Mobile"
+          required
+          maxlength="10"
+          class="mobile"
+        />
+        <br />
+        <br />
+        <label name="radio1">Gender : </label>
+        <input type="radio" name="gender" />
+        <label name="radio1">Male</label>
+        <input type="radio" name="gender" />
+        <label name="radio1">Female</label>
+        <input type="radio" name="gender" />
+        <label name="radio1">Other</label>
+        <input type="radio" name="gender" />
+        <label name="radio1">Not Prefer to Say</label>
+
+        <br />
+        <br />
+        <label for="enroll">Select the course: </label>
+        <input type="checkbox" name="course" />
+        <label for="course" name="course">Web Development</label>
+        <input type="checkbox" name="course" />
+        <label for="course" name="course">Machine Learning</label>
+        <input type="checkbox" name="course" />
+        <label for="course">Data Science</label>
+        <br />
+        <br />
+        <button class="button">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
